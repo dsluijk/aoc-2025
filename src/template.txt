@@ -1,11 +1,23 @@
 advent_of_code::solution!(%DAY_NUMBER%);
 
-pub fn part_one(input: &str) -> Option<u64> {
-    None
+pub fn part_one(input: &str) -> Option<i64> {
+    let mut result: i64 = 0;
+
+    for instr in input.split("\n").filter(|&x| !x.is_empty()) {
+        result += 1;
+    }
+
+    Some(result)
 }
 
-pub fn part_two(input: &str) -> Option<u64> {
-    None
+pub fn part_two(input: &str) -> Option<i64> {
+    let mut result: i64 = 0;
+
+    for instr in input.split("\n").filter(|&x| !x.is_empty()) {
+        result += 1;
+    }
+
+    Some(result)
 }
 
 #[cfg(test)]

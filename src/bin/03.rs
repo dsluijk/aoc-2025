@@ -11,8 +11,8 @@ pub fn part_one(input: &str) -> Option<i64> {
 
         let mut best: i64 = 0;
         for (i, left) in bank.iter().enumerate() {
-            for right in &bank[usize::try_from(i + 1).ok().unwrap()..] {
-                let new: i64 = (left * 10 + right).try_into().unwrap();
+            for right in &bank[i + 1..] {
+                let new = left * 10 + right;
                 if new > best {
                     best = new;
                 }

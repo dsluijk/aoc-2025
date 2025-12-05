@@ -32,7 +32,7 @@ pub fn part_one(input: &str) -> Option<i64> {
             }
         }
 
-        print!("\n")
+        println!();
     }
 
     Some(result)
@@ -73,10 +73,11 @@ pub fn part_two(input: &str) -> Option<i64> {
                 }
             }
 
-            print!("\n")
+            println!();
         }
 
-        print!("\n\n");
+        println!();
+        println!();
 
         if removed == 0 {
             break;

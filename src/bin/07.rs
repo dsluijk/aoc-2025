@@ -59,7 +59,7 @@ pub fn part_two(input: &str) -> Option<i64> {
     let mut totals = Vec::new();
 
     for _ in 0..total_lines {
-        let row_vec = std::iter::repeat(0).take(line_length).collect::<Vec<_>>();
+        let row_vec = std::iter::repeat_n(0, line_length).collect::<Vec<_>>();
         totals.push(row_vec);
     }
 

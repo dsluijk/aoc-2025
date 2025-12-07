@@ -61,7 +61,7 @@ pub fn part_two(input: &str) -> Option<i64> {
             column.push(c);
         }
 
-        if column.len() == 0 {
+        if column.is_empty() {
             continue;
         }
 

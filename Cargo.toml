@@ -28,5 +28,7 @@ pico-args = "0.5.0"
 tinyjson = "2.5.1"
 fancy-regex = "0.10.0"
 nom = "8.0.0"
+memoize = "0.5.1"
+union-find = "0.4.3"
 
 # Solution dependencies

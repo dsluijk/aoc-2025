@@ -30,5 +30,6 @@ fancy-regex = "0.10.0"
 nom = "8.0.0"
 memoize = "0.5.1"
 union-find = "0.4.3"
+priority-queue = "2.7.0"
 
 # Solution dependencies
